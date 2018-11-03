@@ -1,0 +1,33 @@
+{
+  "version":1,
+  "network":{
+    "ula_prefix":"fd43:5602:29bd:128:\/64"
+  },
+  "vpn":[{
+    "name":"fff-uranus",
+    "protocol":"fastd",
+    "address":"144.76.70.186",
+    "port":"10003",
+    "key":"3834e45fa33c048f975e81042c1e93bb11dac82d9f03a0b24071bb72205247a8"
+  }],
+  "hood":{
+    "name":"christiand-01",
+    "essid":"FREIE-WHAL.freifunk",
+    "mesh_essid":"mesh.christiand-1",
+    "mesh_id":"mesh.christiand-1",
+    "protocol":"batman-adv-v15",
+    "channel2":"13",
+    "mode2":"ht20",
+    "mesh_type2":"802.11s",
+    "channel5":"40",
+    "mode5":"ht20",
+    "mesh_type5":"802.11s",
+    "upgrade_path":"",
+    "ntp_ip":"fd43:5602:29bd:ffff::1",
+    "timestamp":"1537962979",
+    "location":{
+      "lat":"",
+      "lon":""
+      }
+  }
+}
